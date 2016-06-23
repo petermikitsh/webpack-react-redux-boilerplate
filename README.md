@@ -5,6 +5,8 @@ A brief example demonstrating webpack with react 0.15 and redux + redux-thunk.
 
 The app is a counter (initialized at count = 5) and provides a button for incrementing the count by 1.
 
+![Demo](/demo.gif?raw=true "Demo")
+
 Getting Started
 ---------------
 
