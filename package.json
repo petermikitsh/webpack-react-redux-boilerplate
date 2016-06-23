@@ -1,0 +1,38 @@
+{
+  "name": "webpack-react-redux-boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/entry.jsx",
+  "engines": {
+    "node": ">=5.5.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch --hot --inline --config webpack.js --colors --host 0.0.0.0 --port 3010 --content-base .build"
+  },
+  "author": "Peter Mikitsh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:petermikitsh/webpack-react-redux-boilerplate.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint-plugin-react": "^5.2.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "redux-devtools": "^3.3.1",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.0.11",
+    "redux-thunk": "^2.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
